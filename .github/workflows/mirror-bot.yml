@@ -48,10 +48,10 @@ jobs:
           docker run --privileged --rm -i mirror-bot
  
   # 2nd Job for running bot 2
-  bot-2:
+ # bot-2:
     runs-on: ubuntu-latest
 
-    steps:
+  #  steps:
       - name: Checkout
         uses: actions/checkout@main
 
